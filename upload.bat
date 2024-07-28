@@ -1,3 +1,4 @@
+#FERNANDODEV
 # Paso 1: Agregar y cometer cambios en Git
 git add .
 git commit -m "Ultimo Commit"
@@ -7,7 +8,8 @@ git push
 set GOARCH=amd64
 set GOOS=linux
 
-# Paso 3: Construir el binario de Go
+# Paso 3: Construir el binario de Go y asignarle el nombre
+# personalizado
 go build -o bootstrap main.go
 
 # Paso 4: Eliminar el archivo ZIP previo si existe
